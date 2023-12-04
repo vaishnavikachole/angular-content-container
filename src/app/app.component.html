@@ -1,0 +1,22 @@
+<div class="container" style="margin: 20px; padding:20px;width: 600px">
+  <div class="card" [ngStyle]="customStyle">
+    <h3>App component</h3>
+    <app-registration>
+      <!-- <div class="headingPart">
+        Registration Component
+      </div>
+       <div class="bodyPart">
+        Good Evening
+       </div> -->
+
+  <!-- we don't want extra div that's why we will use ng-container now -->
+       <ng-container class="headingPart">
+        Registration Component
+      </ng-container>
+      <ng-container class="bodyPart">
+        Good Morning
+      </ng-container>
+    </app-registration>
+    </div>
+    </div>
+

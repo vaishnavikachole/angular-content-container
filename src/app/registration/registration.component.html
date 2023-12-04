@@ -1,0 +1,13 @@
+<!-- <ng-content>
+</ng-content>
+data is coming from parent component through child component selector into ng-content. -->
+<!-- we can send data from parent component to-->
+<div class="card" style="width: 350px; height:200px;padding:20px;margin:20px">
+        <div class="card-header">
+        <ng-content select=".headingPart"></ng-content>
+        </div>
+        <div class="card-body">
+        <ng-content select=".bodyPart"></ng-content>
+        </div>
+</div>
+
